@@ -1,0 +1,182 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.content{
+	display: block;
+	overflow: hidden;
+	margin-top: .7rem;
+}
+.isolation{
+	height: .2rem;
+	width: 100%;
+	background: #f8f8f8;
+}
+header{ 
+	position: fixed; 
+	top:0; 
+	width: 100%; 
+	height: .7rem;
+	line-height:.7rem;  
+	background: red;  
+}
+.menu-fold{
+	display: block;
+	float: left;
+	width: .7rem;
+	color: #fff;
+	text-align: center;
+}
+
+.menu-search{
+    display: block;
+	float: left;
+	height: .5rem;
+	line-height: .5rem;
+	background: #fff;
+	width: 4.5rem;
+	padding: 0 .1rem;
+	margin: .1rem 0 0 .15rem;
+	color: #999;
+}
+
+.menu-s-input{
+	width: 90%;
+	height: 100%;
+	line-height: .5rem; 
+}
+
+.menu-msg{
+	display: block;
+	float: right;
+	width: .7rem;
+	color: #fff;
+	text-align: center;
+}
+
+.navigation{
+	height: auto;
+	overflow: hidden;
+	padding: .2rem 0;
+}
+
+.home-news{
+	height: 1rem;
+	line-height: 1rem;
+	overflow: hidden;
+}
+
+.new-txt{
+	width: 78%;
+	margin-right: .15rem;
+	height: auto;
+}
+
+.new-txt-list{
+	display: block;
+	width: 100%;
+	color: #333;
+	font-size: 14px;
+	line-height: 1rem;
+}
+
+.home-active{
+
+}
+
+.home-active-fr{
+	width: 48%;
+	padding: 2%;
+	height: 2rem;
+	border-right: 1px solid #e4e4e4;
+}
+
+.index-seconds-kill{
+	font-size: 14px;
+	color: red;
+}
+
+.index-screenings{
+	padding-left: .3rem;
+	font-size: 12px;
+	color: #333;
+}
+
+footer{ 
+	position: fixed; 
+	bottom:0; 
+	width: 100%; 
+	height: 1.2rem; 
+	background: #f8f8f8; 
+	border-top: 1px solid #e4e4e4; 
+}
+.foot-item{
+	width: 20%; 
+	float: left; 
+	display: block;
+	text-align: center;
+	height: 100%;
+}
+.nav-item{
+	width: 20%; 
+	float: left; 
+	display: block;
+	text-align: center;
+	color: red;
+	font-size: 14px;
+	height: 100%;
+	margin-bottom: .12rem;
+}
+.icon{ 
+	display: block;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.icons{ 
+	display: block; 
+	font-size: 18px;
+	font-weight: 400; 
+}
+
+.nav-icon{
+	display: block;
+	color: red;
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.new-icon{
+	display: block;
+	color: red;
+	font-size: 40px;
+	font-weight: normal;
+	margin-left: .15rem;
+}
+
+.act-icon{
+	display: block;
+	color: red;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.text {
+    font-size: 14px;
+    -webkit-transform: scale(.83);
+    transform: scale(.83);
+    line-height: .4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+    margin-top: -1px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.router-link-exact-active{
+	color: red;
+}
